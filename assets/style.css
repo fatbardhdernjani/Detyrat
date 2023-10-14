@@ -25,6 +25,10 @@ nav table tr td span p {
     padding-right: 20px;
 }
 
+.facebook::before {
+    content: url('../assets/facebook.png');
+}
+
 main {
     background-color: #BADFE7;
     width: 75%;
