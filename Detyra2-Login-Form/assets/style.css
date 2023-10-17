@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #F6F6F2;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+nav table {
+    background-color: #C2EDCE;
+    width: 75%;
+    padding: 10px 10px;
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+}
+
+nav table tr td h2 {
+    text-align: left;
+    padding-left: 20px;
+}
+
+nav table tr td span p {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.facebook::before {
+    content: url('../assets/facebook.png');
+}
+
+main {
+    background-color: #BADFE7;
+    width: 75%;
+    margin: auto;
+}
+
+.table1 {
+    padding: 30px 50px 30px 50px;
+}
+
+.table1 tr td img {
+    text-align: left;
+}
+
+.cell1 {
+    text-align: left;
+}
+
+.cell1 img {
+    padding-left: 70px;
+}
+
+.cell2 {
+    padding-left: 100px;
+}
+
+.cell2 h2, p {
+    color: #363430;
+}
+
+.cell2 a {
+    color: indianred;
+}
+
+.table2 {
+    padding: 30px 50px 30px 50px;
+}
+
+.cell3 {
+    padding-left: 40px;
+}
+
+.cell4 {
+    padding-left: 50px;
+}
+
+.cell4 form input, button {
+    background-color: #F6F6F2;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.cell4 form textarea {
+    border-radius: 5px;
+    background-color: #F6F6F2;
+}
+
+footer {
+    background-color: #6FB3B8;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 20px;
+}
