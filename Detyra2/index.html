@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bardhi's page</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
 </head>
 <body>
-    
+    <nav>
+        <table>
+            <tr>
+                <td>
+                    <h2>Biografi e shkurtër</h2>
+                </td>
+                <td>
+                    <span><p>Me ndiqni në: <a href="#" class="facebook"></a></p></span>
+                </td>
+            </tr>
+        </table>
+    </nav>
+    <main>
+        <table class="table1">
+            <tr>
+                <td class="cell1">
+                    <img width="250" src="assets/fd.png"/>
+                </td>
+                <td class="cell2">
+                    <h2>Përshëndetje, unë jam <strong><i>Fatbardhi</i></strong></h2>
+                    <p>Unë jam <b>Fatbardh Dernjani</b>, vij nga Hani i Elezit. Kam të përfunduar Shkencën Kompjuterike, mirëpo gjatë studimeve nuk kam mundur që të marr dije të mjaftueshme rreth Programimit dhe kështu që vendosa ta ndjek këtë BootCamp, ku po shpresoj që fal ligjërtave nga Profesor Ylberi dhe ndihmës së kolegëve do të arrij që në fund të dal si Full Stack Developer.</p>
+                    <a target="_blank" href="assets/CV.pdf">Shkarko CV-n time</a>
+                </td>
+            </tr>
+        </table>  
+        <hr>
+        <table class="table2">
+            <tr>
+                <td class="cell3">
+                    <p>Ky është qyteti ku unë jetoj dhe veproj ♥</p>
+                    <img width="450" src="assets/haniielezit.png" alt="Hani i Elezit"/>         
+                </td>
+                <td class="cell4">
+                    <p>Nëpërmjet kësaj forme, ju mund të bëni vlerësimin e punës sime në këtë projekt</p>                 
+                    <form action="#">
+                        <input type="text" name="Emri" placeholder="Emri & Mbiemri" /><br/><br/>
+                        <input type="text" name="Emri" placeholder="Subjekti"/><br/><br/>
+                        <textarea name="mesazhi" rows="5" cols="40"></textarea><br/><br/>
+                        Vlerësoni projektin tim:<br/>
+                        <input type="range" id="vlersim" name="vlersim" min="1" max="10">
+                        <label for="Nota vlerësuese">Nota vlerësuese</label><br/><br/>
+                        <button name="perfundo">Dërgoni mesazhin!</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <footer>
+            <table>
+                <tr>
+                    <td class="cell5">
+                        <p>Copyright &copy; 2023 | Zhvilluar nga Fatbardh Dernjani</p>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </main>
 </body>
 </html>
