@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #EEEEEE;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color:#222831;
+    position: absolute;
+}
+
+nav h3 {
+    margin-top: 30px;
+    margin-left: 75px;
+    color: azure;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 75px;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.social1::after {
+    content: url('../assets/facebook-ico.png');
+    width: 5px;
+}
+
+.social2::after {
+    content: url('../assets/instagram-ico.png')
+}
+
+.social3::after {
+    content: url('../assets/twitter-ico.png')
+}
+
+div {
+    width: 50%;
+    height: 50vh;
+    margin-top: 25vh;
+    position: absolute;
+    text-align: center;
+}
+
+.box1 {
+    margin-left: 7%;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 55%;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    background-color:#00ADB5;
+}
+
+.box1 p {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: #EEEEEE;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.box2 {
+    margin-right: 7%;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 55%;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    background-color:#00ADB5;
+}
+
+.box2 img {
+    margin-top: 15px;
+}
+
+.box2 p {
+    color: #EEEEEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.box2 a {
+    font-weight: bold;
+    color: #EEEEEE;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.box2 a:hover {
+    text-decoration: underline;
+}
+
+.box2 input[type=text] {
+    width: 40%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    margin: 8px 0;
+}
+
+.box2 button {
+    background-color: #393E46;
+    color: white;
+    width: 40%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.box2 button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
